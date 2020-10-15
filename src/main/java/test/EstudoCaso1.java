@@ -1,15 +1,7 @@
 package test;
 
-/**
- * Hello world!
- *
- */
-public class Aprovacao 
+public class EstudoCaso1 
 {
-//    public static void main( String[] args )
-//    {
-//        System.out.println( "Hello World!" );
-//    }
 
     public boolean calcularAprovacao(float nota1, float nota2, float notafinal, int frequencia){
         float media;
