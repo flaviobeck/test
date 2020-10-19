@@ -32,6 +32,17 @@
     </dependencies>
     <build>
         <plugins>
+
+            <!-- PITEST -->
+            <plugin>
+              <groupId>org.pitest</groupId>
+              <artifactId>pitest-maven</artifactId>
+              <version>1.5.2</version>
+              <configuration>
+                <fullMutationMatrix>true</fullMutationMatrix>
+              </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
