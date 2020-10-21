@@ -1,3 +1,15 @@
+PROCEDIMENTO PARA OS EXPERIMENTOS:
+
+1 - Executar em um projeto Java/Maven
+2 - Verificar se os testes Unitarios do projeto atendem ao criterio de cobertura minima e nada mais alem do minimo
+3 - Verificar se o projeto possui pelo menos um mutante sobrevivente (stubborn)
+4 - Criar 10 conjuntos de testes com inputs randomicos (mesmos testes, porem com valores diferentes de entrada )
+5 - Verificar se os mutantes sobreviventes para cada conjunto sao diferentes
+
+
+-----
+
+
 run:
 
 mvn clean test org.pitest:pitest-maven:mutationCoverage
